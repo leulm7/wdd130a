@@ -9,16 +9,22 @@ body {
     height: 100vh; /* Full viewport height */
 }
 
+head {
+    align-items: center;
+}
 header {
     background-color: #fff;
     padding: 20px;
     text-align: center;
+    align-items: center;
 }
 
 .title {
     font-size: 2em;
     color: #333;
     transition: color 0.3s;
+    align-items: center;
+
 }
 
 .title:hover {
