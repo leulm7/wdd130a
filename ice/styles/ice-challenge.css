@@ -7,13 +7,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
+    color: white;
 }
-
 head {
     align-items: center;
+    background-color: #2874ab;
 }
 header {
-    background-color: #fff;
+    background-color: #2874ab;
     padding: 20px;
     text-align: center;
     align-items: center;
@@ -21,41 +22,42 @@ header {
 
 .title {
     font-size: 2em;
-    color: #333;
+    color: white;
     transition: color 0.3s;
-    align-items: center;
+    align-items:center;
+    background-color: #2874ab;
 
 }
-
+.all{
+    align-items: center;
+}
 .title:hover {
     color: black; /* Change color on hover */
 }
-
+#top{
+    color: white;
+    font-weight: bold;
+    align-self: auto;
+}
+#top1{
+    color: white;
+    align-content: center;
+}
 main {
     padding: 20px;
 }
-
-section {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 600px; /* Set a max width for better readability */
-    width: 100%; /* Full width up to the max */
-}
-
-blockquote {
-    border-left: 4px solid #333;
-    margin: 10px 0;
-    padding-left: 15px;
-    font-style: italic;
-}
-
-h2 {
-    margin-top: 20px;
-}
-
-ul {
+ol {
     margin: 10px 0;
     padding-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+#footer {
+    color: black;
+    font-size: small;
+}
+#quote{
+    color: white;
+    font-size: large;
+    text-align: center;
 }
