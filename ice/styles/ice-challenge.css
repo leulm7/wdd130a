@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #2874ab;
     display: flex;
@@ -34,15 +34,7 @@ header {
 .title:hover {
     color: black; /* Change color on hover */
 }
-#top{
-    color: white;
-    font-weight: bold;
-    align-self: auto;
-}
-#top1{
-    color: white;
-    align-content: center;
-}
+
 main {
     padding: 20px;
 }
@@ -58,6 +50,22 @@ ol {
 }
 #quote{
     color: white;
-    font-size: large;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 50%;
+}
+main{
     text-align: center;
+}
+#background {
+    height: 100px;
+}
+
+#art4 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+ol{
+    text-align: left;
 }
