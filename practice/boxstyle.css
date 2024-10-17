@@ -1,0 +1,40 @@
+@font-face {
+    font-family: kidstuff;
+    src: url();
+}
+body{
+    background: rgb(170, 227, 202);
+}
+.qbox1, .qbox2, .qbox3 {
+    box-sizing: border-box;
+}
+.qbox1{
+    margin: 20px;
+    border: 15px solid black;
+    padding: 10px 15px;
+    width: 500px;
+    background: white;
+    border-radius: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.qbox2{
+    margin: 20px;
+    border: 20px dotted royalblue;
+    padding: 20px 35px;
+    width: 500px;
+    background: lightpink;
+    border-radius: 90px;
+    font-family: 'Tangerine', serif;
+    font-size: 20px;
+    font-weight: 400px;
+    font-style: normal;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.qbox3{
+    margin: 20px;
+    border: 35px solid red;
+    padding: 50px;
+    width: 500px;
+    background: tan;
+    border-radius: 45px;
+}

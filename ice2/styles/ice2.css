@@ -1,0 +1,46 @@
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section (Top Background Image) */
+
+.hero-section {
+    width: 100%; /* Ensures full width */
+}
+.hero-section img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+/* Footer Section (Bottom with Circular Images) */
+.footer-section {
+    background-color: #595959; /* Gray background */
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Spacing between the circles */
+    width: 100%;
+}
+
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Creates a perfect circle */
+    overflow: hidden; /* Ensures images fit inside the circle */
+    border: 5px solid white; /* White border around each circle */
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the circle properly */
+}
