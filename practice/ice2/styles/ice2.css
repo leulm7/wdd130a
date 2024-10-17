@@ -36,6 +36,7 @@ body {
     height: 150px;
     border-radius: 50%; /* Creates a perfect circle */
     overflow: hidden; /* Ensures images fit inside the circle */
+    border: 5px solid black; /* White border around each circle */
 }
 
 .circle-image img {
