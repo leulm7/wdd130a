@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halloween</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Indie+Flower&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rock+Salt&family=Shadows+Into+Light&family=Unkempt:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    #wrapper{
+        background: linear-gradient(salmon, rgb(28, 140, 177));
+        height: 700px;
+        margin: 0 auto;
+    }
+    h1{
+        font-family: "Creepster", Arial, Helvetica, sans-serif;
+    }
+    nav ul {
+    display: block; 
+    color: aqua;
+    }
+    nav ul li {
+    margin-bottom: 10px;
+    }
+    .image{
+        float:right;
+        border-radius: 25px;
+        border-color: azure;
+        width: 500px;
+        animation: glow 2s infinite alternate;
+    }
+    @keyframes glow{
+        0%, 100%{ opacity:1;}
+        50%{ opacity:0.5;}
+        0% {
+        filter: drop-shadow(0 0 5px #ff0) drop-shadow(0 0 10px #ff0) drop-shadow(0 0 15px #ff0);
+    }
+    100% {
+        filter: drop-shadow(0 0 10px #f00) drop-shadow(0 0 20px #f00) drop-shadow(0 0 30px #f00);
+    }
+    }
+    section{
+        
+    }
+    footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    }
+</style>
+
+<body>
+<div id="wrapper">
+<header>
+<nav>
+<ul>
+<li>Costumes</li>
+<li>Candy</li>
+<li>Decorations</li>
+<li>Spooky</li>
+</ul>
+</nav>
+</header>
+<main>
+<h1>Happy Halloween</h1>
+<img class="image" src="Designer (1).jpeg">
+<section>
+<h2>Pumpkins</h2>
+<p>Zombie ipsum reversus ab viral inferno, nam rick grimes
+malum cerebro. De carne lumbering animata corpora quaeritis.
+Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger
+omero undead survivor dictum mauris. </p>
+</section>
+<section>
+<h2>Bats</h2>
+<p>Hi mindless mortuis soulless
+creaturas, imo evil stalking monstra adventus resi dentevil vultus
+comedat cerebella viventium. Qui animated corpse, cricket bat max
+brucks terribilem incessu zomby. The voodoo sacerdos flesh eater,
+suscitat mortuos comedere carnem virus.</p>
+</section>
+<section>
+<h2>Skeletons</h2>
+<p>Zonbi tattered for solum oculi
+eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut
+malus putrid voodoo horror. Nigh tofth eliv ingdead.</p>
+</section>
+</main>
+</div>
+</body>
+<footer>
+Happy Halloween &copy; 2024
+</footer>
+</html>
