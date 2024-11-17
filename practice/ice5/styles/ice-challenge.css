@@ -48,7 +48,16 @@ ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #2874ab;
+    width: 320px;
+    align-items: center;
 }
 .base div{
     border: black;
+    text-align: center;
+    padding: 10%;
+}
+
+.base div.between {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
 }
