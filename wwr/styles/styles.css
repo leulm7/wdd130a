@@ -213,7 +213,7 @@ main section img {
     background: rgb(172, 240, 246);
     margin: 10px auto;
     border-radius: 10px;
-    box-shadow: 10 40px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 40px 80px rgba(0, 0, 0, 0.2);
     animation: fadeIn 1s ease;
     width: 90%;
 }
@@ -261,7 +261,7 @@ footer .social img:hover {
         transform: translateY(20px);
     }
     to {
-        opacity: 100;
+        opacity: 2;
         transform: translateY(0);
     }
 }
@@ -336,8 +336,3 @@ footer .social img:hover {
         margin-top: 25px;
     }
 }
-.rightside{
-    float: right;
-}
-.leftside{
-    float:
