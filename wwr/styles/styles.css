@@ -202,6 +202,79 @@ main section img {
 
 
 
+/*BELOW CSS is for the river sub page*/
+#threecolumn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.river-card {
+    gap: 10px;
+    padding: 10px;
+    background: rgb(172, 240, 246);
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 10 40px 80px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease;
+    width: 90%;
+}
+.rcard-img-container {
+    flex: 1;
+}
+.rcard-img-container img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.rcard-img-container img:hover {
+    transform: scale(1.1);
+}
+.rcard-content {
+    flex: 100;
+}
+.rcard-content h2 {
+    color: #2d5e80;
+    margin-bottom: 15px;
+}
+.rcard-content p {
+    color: #333;
+    line-height: 1.5;
+}
+footer {
+    background-color: #2d5e80;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+footer .social img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+footer .social img:hover {
+    transform: scale(1.2);
+}
+
+/* Motion Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 100;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -263,3 +336,8 @@ main section img {
         margin-top: 25px;
     }
 }
+.rightside{
+    float: right;
+}
+.leftside{
+    float:
