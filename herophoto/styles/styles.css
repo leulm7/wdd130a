@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rock+Salt&family=Shadows+Into+Light&family=Unkempt:wght@400;700&display=swap');
+
+h1, h2, h4 {
+    font-family: 'Playwrite GB S', 'Rock Salt', 'Unkempt', 'Arial', 'sans-serif'; /* Headline font with backups */
+}
+body{
+    background-color:#e9c46a;
+    font-family: 'Indie Flower', 'Shadows Into Light', 'Arial', 'sans-serif'; /* Body font with backups */
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
