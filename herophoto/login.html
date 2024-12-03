@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" type="text/css" href="styles/logstyle.css">
+</head>
+<body>
+    <div id="content">
+    <header>
+        <a id= "logo_link" href= "index.html" >
+            <img class = "logo" src="images/logo Small.jpeg" alt = "Dry Oar Logo" width="10%" height="10%">
+        </a>
+        <nav>
+            <a href= "index.html"> Home</a>
+            <a href="login.html"> Log In </a>
+            <a href="gallery.html"> Gallery </a>
+            <a href= "site-plan.html">Site Plan</a>
+            <a href= "contactus.html"> About Us</a>
+        </nav>
+    </header>
+    <div id="hero">
+        <div id="hero-box"> 
+            <img id="hero-img" src="images/salmon-kayak1.jpg" alt="People enjoying rafting">
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">Hero Photo</h1>
+            <h4> One Snap everywhere </h4>
+        </section>
+    </div>
+    <main>
+                <!-- Button to open the modal login form -->
+        <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+        <!-- The Modal -->
+        <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="close" title="Close Modal">&times;</span>
+
+        <!-- Modal Content -->
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+            <img src="images/salmon-kayak1.jpg" alt="herolog" class="herolog">
+            </div>
+
+            <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+        </div>
+    </main>
+</body>
+</html>
