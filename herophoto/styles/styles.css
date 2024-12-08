@@ -4,9 +4,27 @@ h1, h2, h4 {
     font-family: 'Playwrite GB S', 'Rock Salt', 'Unkempt', 'Arial', 'sans-serif'; /* Headline font with backups */
 }
 body{
-    background-color:#e9c46a;
+    background-color:#6ae9b8;
     font-family: 'Indie Flower', 'Shadows Into Light', 'Arial', 'sans-serif'; /* Body font with backups */
     font-size: 22px;
     margin: 0;
     padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: rgb(30, 32, 31);
+    color: #b68876;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    color: hsla(0, 0%, 100%, .5);
+    border-color: hsla(0, 0%, 100%, .1);
 }
