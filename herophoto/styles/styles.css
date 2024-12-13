@@ -75,15 +75,6 @@ nav .gallery-link:hover {
     border-color: #004d40; /* Darker green for border */
 }
 
-
-#laptop {
-    display: block; /* Ensures it behaves like a block element */
-    margin-left: auto; /* Pushes the image to the right */
-    margin-right: 0; /* Optional: Explicitly sets right margin to 0 */
-    max-width: 100%; /* Ensures it scales within the parent container */
-    width: 50%;
-}
-
 #hero-content {
     display: flex; /* Aligns items horizontally */
     align-items: center; /* Vertically centers content */
@@ -135,3 +126,43 @@ nav .gallery-link:hover {
     margin: 0; /* Removes default margin */
     margin-top: 10px; /* Optional: Adds a little space below the title */
 }
+
+
+
+#intro-box {
+    display: flex; /* Arrange items horizontally */
+    justify-content: space-between; /* Space between the text and the image */
+    align-items: center; /* Vertically align text and image */
+    gap: 20px; /* Add spacing between text and image */
+    padding: 20px; /* Add inner padding */
+    max-width: 1200px; /* Limit width for the section */
+    margin: 0 auto; /* Center the section */
+}
+
+#intro-text {
+    flex: 1; /* Allow text to take up available space */
+    text-align: left; /* Align text to the left */
+    font-size: 18px; /* Adjust text size */
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Neutral color for text */
+}
+#laptop {
+    display: block; /* Ensures it behaves like a block element */
+    margin-left: auto; /* Pushes the image to the right */
+    margin-right: 0; /* Optional: Explicitly sets right margin to 0 */
+    max-width: 100%; /* Ensures it scales within the parent container */
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    #intro-box {
+        flex-direction: column; /* Stack text and image vertically on small screens */
+        text-align: center; /* Center-align text on smaller screens */
+    }
+
+    #intro-laptop {
+        margin-left: 0; /* Remove left margin on smaller screens */
+        max-width: 100%; /* Allow image to take full width */
+    }
+}
+
