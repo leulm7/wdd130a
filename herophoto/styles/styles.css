@@ -10,25 +10,7 @@ body{
     margin: 0;
     padding: 0;
 }
-nav {
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-}
-nav a:hover {
-    background-color: rgb(30, 32, 31);
-    color: #b68876;
-}
-nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-}
-nav a:hover {
-    color: hsla(0, 0%, 100%, .5);
-    border-color: hsla(0, 0%, 100%, .1);
-}
+
 header {
     display: flex; /* Align logo and nav horizontally */
     align-items: center; /* Vertically align items */
